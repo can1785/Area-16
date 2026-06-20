@@ -439,7 +439,7 @@ export const botConfig = {
   // Herhangi bir sistemi küresel olarak kapatmak için `false` yapabilirsiniz.
   features: {
     // Çekirdek sistemler.
-    economy: true,      // Ekonomi
+    economy: false,      // Ekonomi
     leveling: true,     // Seviye Sistemi
     moderation: true,   // Moderasyon
     logging: true,      // Log Tutma
