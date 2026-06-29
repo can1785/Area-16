@@ -440,29 +440,29 @@ export const botConfig = {
   features: {
     // Çekirdek sistemler.
     economy: false,      // Ekonomi
-    leveling: true,     // Seviye Sistemi
-    moderation: true,   // Moderasyon
-    logging: true,      // Log Tutma
-    welcome: true,      // Hoş Geldin Sistemi
+    leveling: false,     // Seviye Sistemi
+    moderation: false,   // Moderasyon
+    logging: false,      // Log Tutma
+    welcome: false,      // Hoş Geldin Sistemi
 
     // Topluluk etkileşim sistemleri.
-    tickets: true,      // Destek Talepleri
-    giveaways: true,    // Çekilişler
+    tickets: false,      // Destek Talepleri
+    giveaways: false,    // Çekilişler
     birthday: false,     // Doğum Günü
     counter: false,      // Sayaçlar
 
     // Güvenlik ve kendi kendine hizmet sistemleri.
     verification: false, // Doğrulama
-    reactionRoles: true,// Tepki Rolleri
-    joinToCreate: true, // Katılınca Oda Oluştur
+    reactionRoles: false,// Tepki Rolleri
+    joinToCreate: false, // Katılınca Oda Oluştur
 
     // Yardımcı/Yaşam kalitesi modülleri.
-    voice: true,        // Ses
-    search: true,       // Arama
-    tools: true,        // Araçlar
-    utility: true,      // Faydalı Komutlar
-    community: true,    // Topluluk
-    fun: true,          // Eğlence
+    voice: false,        // Ses
+    search: false,       // Arama
+    tools: false,        // Araçlar
+    utility: false,      // Faydalı Komutlar
+    community: false,    // Topluluk
+    fun: false,          // Eğlence
   },
 };
 
