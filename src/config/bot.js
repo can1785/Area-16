@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = Çevrimdışı görünür
   presence: {
     // Discord'da gösterilecek çevrimiçi durumu.
-    status: "online",
+    status: "dnd",
 
     // Bot adının altında gösterilecek aktivite satırları.
     // Discord aktivite türü (type) numaraları:
@@ -24,9 +24,9 @@ export const botConfig = {
     activities: [
       {
         // Kullanıcıların göreceği metin.
-        name: "büyük adam kage",
+        name: "bot has been disabled",
         // Aktivite türü numarası (3 = İzliyor).
-        type: 3,
+        type: 4,
       },
     ],
   },
