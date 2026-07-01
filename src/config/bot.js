@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = Çevrimdışı görünür
   presence: {
     // Discord'da gösterilecek çevrimiçi durumu.
-    status: "dnd",
+    status: "online",
 
     // Bot adının altında gösterilecek aktivite satırları.
     // Discord aktivite türü (type) numaraları:
@@ -24,9 +24,9 @@ export const botConfig = {
     activities: [
       {
         // Kullanıcıların göreceği metin.
-        name: "bot has been disabled",
+        name: "büyük adam kage",
         // Aktivite türü numarası (3 = İzliyor).
-        type: 4,
+        type: 3,
       },
     ],
   },
@@ -440,29 +440,29 @@ export const botConfig = {
   features: {
     // Çekirdek sistemler.
     economy: false,      // Ekonomi
-    leveling: false,     // Seviye Sistemi
-    moderation: false,   // Moderasyon
-    logging: false,      // Log Tutma
-    welcome: false,      // Hoş Geldin Sistemi
+    leveling: true,     // Seviye Sistemi
+    moderation: true,   // Moderasyon
+    logging: true,      // Log Tutma
+    welcome: true,      // Hoş Geldin Sistemi
 
     // Topluluk etkileşim sistemleri.
-    tickets: false,      // Destek Talepleri
-    giveaways: false,    // Çekilişler
-    birthday: false,     // Doğum Günü
-    counter: false,      // Sayaçlar
+    tickets: true,      // Destek Talepleri
+    giveaways: true,    // Çekilişler
+    birthday: true,     // Doğum Günü
+    counter: true,      // Sayaçlar
 
     // Güvenlik ve kendi kendine hizmet sistemleri.
     verification: false, // Doğrulama
-    reactionRoles: false,// Tepki Rolleri
-    joinToCreate: false, // Katılınca Oda Oluştur
+    reactionRoles: true,// Tepki Rolleri
+    joinToCreate: true, // Katılınca Oda Oluştur
 
     // Yardımcı/Yaşam kalitesi modülleri.
-    voice: false,        // Ses
-    search: false,       // Arama
-    tools: false,        // Araçlar
-    utility: false,      // Faydalı Komutlar
-    community: false,    // Topluluk
-    fun: false,          // Eğlence
+    voice: true,        // Ses
+    search: true,       // Arama
+    tools: true,        // Araçlar
+    utility: true,      // Faydalı Komutlar
+    community: true,    // Topluluk
+    fun: true,          // Eğlence
   },
 };
 
